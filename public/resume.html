@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume - Michanagatla Vishnu</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+    body {
+      font-family: 'Outfit', sans-serif;
+      color: #000000;
+      background: #ffffff;
+      line-height: 1.4;
+      margin: 40px auto;
+      max-width: 800px;
+      padding: 0 24px;
+    }
+    
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    h1 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 2.2rem;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: -0.01em;
+    }
+    
+    .contact-info {
+      font-size: 0.9rem;
+      color: #4b5563;
+      margin-bottom: 15px;
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    
+    .contact-info a {
+      color: #000000;
+      text-decoration: underline;
+    }
+    
+    h2 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.15rem;
+      text-transform: uppercase;
+      border-bottom: 1.5px solid #000000;
+      padding-bottom: 4px;
+      margin-top: 24px;
+      margin-bottom: 10px;
+      letter-spacing: 0.05em;
+    }
+    
+    .objective {
+      font-size: 0.95rem;
+      text-align: justify;
+    }
+    
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      font-weight: 700;
+      font-size: 0.95rem;
+      margin-bottom: 2px;
+    }
+    
+    .item-sub {
+      font-size: 0.9rem;
+      color: #4b5563;
+      margin-bottom: 5px;
+      font-style: italic;
+    }
+    
+    .item-desc {
+      font-size: 0.9rem;
+      margin-bottom: 12px;
+    }
+    
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      font-size: 0.92rem;
+    }
+    
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+    
+    li {
+      margin-bottom: 5px;
+      font-size: 0.9rem;
+      text-align: justify;
+    }
+    
+    .additional-info p {
+      margin: 6px 0;
+      font-size: 0.92rem;
+    }
+    
+    .additional-info strong {
+      display: inline-block;
+      width: 120px;
+    }
+    
+    /* Print optimizations */
+    @media print {
+      body {
+        margin: 15px;
+        max-width: 100%;
+        font-size: 11px;
+      }
+      .no-print {
+        display: none !important;
+      }
+      a {
+        text-decoration: none;
+        color: #000000;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="no-print" style="text-align: right; margin-bottom: 30px; border-bottom: 1px solid #e5e5e5; padding-bottom: 12px;">
+    <button onclick="window.print()" style="padding: 10px 20px; background: #000000; color: #ffffff; border: none; border-radius: 6px; cursor: pointer; font-family: 'Space Grotesk', sans-serif; font-weight: bold; transition: 0.2s ease;">
+      Print / Save as PDF
+    </button>
+  </div>
+  
+  <header>
+    <h1>Michanagatla Vishnu</h1>
+    <div class="contact-info">
+      <span>+91 9000187634</span> | 
+      <a href="mailto:michanagatlavishnu@gmail.com">michanagatlavishnu@gmail.com</a> | 
+      <a href="https://github.com/michanagatlavishnu" target="_blank">github.com/michanagatlavishnu</a> | 
+      <a href="https://www.linkedin.com/in/michanagatla-vishnu-396a59350/" target="_blank">linkedin.com/in/michanagatla-vishnu-396a59350</a>
+    </div>
+  </header>
+  
+  <section>
+    <h2>Career Objective</h2>
+    <p class="objective">
+      A fast learner and smart worker, willing to join as a fresher and eager to develop my skills. Passionate cybersecurity engineer with a strong background in blockchain technology. Skilled in Python, SQL, HTML, and CSS. Possess excellent problem-solving, research, and collaboration abilities.
+    </p>
+  </section>
+  
+  <section>
+    <h2>Education</h2>
+    
+    <div>
+      <div class="item-header">
+        <span>Koneru Lakshmaiah University</span>
+        <span>2023 - 2027</span>
+      </div>
+      <div class="item-sub">B.Tech, CSE (Present)</div>
+      <div class="item-desc">CGPA: <strong>8.87</strong></div>
+    </div>
+    
+    <div style="margin-top: 12px;">
+      <div class="item-header">
+        <span>Resonance Junior College</span>
+        <span>2021 - 2023</span>
+      </div>
+      <div class="item-sub">Intermediate (MPC)</div>
+      <div class="item-desc">CGPA: <strong>6.94</strong></div>
+    </div>
+  </section>
+  
+  <section>
+    <h2>Technical Skills</h2>
+    <div class="skills-grid" style="grid-template-columns: repeat(3, 1fr); gap: 20px;">
+      <div>
+        <ul style="list-style-type: none; padding-left: 0;">
+          <li style="font-size: 0.95rem; margin-bottom: 4px;">C Programming</li>
+          <li style="font-size: 0.95rem; margin-bottom: 4px;">JAVA</li>
+          <li style="font-size: 0.95rem; margin-bottom: 4px;">Python</li>
+        </ul>
+      </div>
+      <div>
+        <ul style="list-style-type: none; padding-left: 0;">
+          <li style="font-size: 0.95rem; margin-bottom: 4px;">HTML</li>
+          <li style="font-size: 0.95rem; margin-bottom: 4px;">CSS</li>
+          <li style="font-size: 0.95rem; margin-bottom: 4px;">JAVASCRIPT</li>
+        </ul>
+      </div>
+      <div>
+        <ul style="list-style-type: none; padding-left: 0;">
+          <li style="font-size: 0.95rem; margin-bottom: 4px;">Data Structures</li>
+          <li style="font-size: 0.95rem; margin-bottom: 4px;">MySQL</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  
+  <section>
+    <h2>Projects</h2>
+    
+    <div>
+      <div class="item-header">
+        <span>Text To Image Generation with Generative Ai</span>
+      </div>
+      <ul style="margin-top: 4px;">
+        <li>Developed an end-to-end text-to-image generation system using Python, Stable Diffusion, and Hugging Face to generate high-quality images from natural language prompts.</li>
+        <li>Implemented model loading, configuration setup, image generation, resizing, and float32 precision optimization to ensure efficient and accurate image synthesis.</li>
+      </ul>
+    </div>
+    
+    <div style="margin-top: 16px;">
+      <div class="item-header">
+        <span>AI-Driven Web Application Security Suite (WAF + Scanner)</span>
+      </div>
+      <ul style="margin-top: 4px;">
+        <li>Developed a secure web application using React (Vite), Node.js, and Express.js to identify common vulnerabilities such as SQL Injection.</li>
+        <li>Built an integrated Web Application Firewall (WAF) with AI-based threat analysis to monitor requests, block malicious traffic in real time, and provide actionable security recommendations.</li>
+      </ul>
+    </div>
+  </section>
+  
+  <section>
+    <h2>Additional Information</h2>
+    <div class="additional-info">
+      <p style="margin: 6px 0; font-size: 0.92rem;"><strong style="display: inline-block; width: 120px;">Languages:</strong> English, Telugu</p>
+      <p style="display: flex; margin: 6px 0; align-items: flex-start; font-size: 0.92rem;">
+        <strong style="display: inline-block; width: 120px; flex-shrink: 0;">Certifications:</strong>
+        <span style="display: flex; flex-direction: column; gap: 4px;">
+          <span>Microsoft Azure Fundamentals</span>
+          <span>Salesforce AI Associate</span>
+          <span>Oracle Cloud Infrastructure Architect Associate</span>
+        </span>
+      </p>
+      <p style="margin: 6px 0; font-size: 0.92rem;"><strong style="display: inline-block; width: 120px;">Strengths:</strong> Communication Skills, Team work</p>
+    </div>
+  </section>
+  
+  <section>
+    <h2>Interests</h2>
+    <ul style="margin-top: 4px;">
+      <li>Photography</li>
+      <li>Listen to Music</li>
+    </ul>
+  </section>
+</body>
+</html>
